@@ -1,0 +1,45 @@
+load tanzania.jpg tanzania
+brighten 50 tanzania brightentanzania
+save brightentanzania.jpg brightentanzania
+
+load tanzania.jpg tanzania
+darken 100 tanzania darkentanzania
+save darkentanzania.jpg darkentanzania
+
+load tanzania.jpg tanzania
+horizontal-flip tanzania horizontaltanzania
+save horizontaltanzania.jpg horizontaltanzania
+
+load tanzania.jpg tanzania
+vertical-flip tanzania verticaltanzania
+save verticaltanzania.jpg verticaltanzania
+
+load tanzania.jpg tanzania
+greyscale tanzania greytanzania
+save greytanzania.jpg greytanzania
+
+load tanzania.jpg tanzania
+rgb-split tanzania redtanzania greentanzania bluetanzania
+save redtanzania.jpg redtanzania
+save greentanzania.jpg greentanzania
+save bluetanzania.jpg bluetanzania
+
+load tanzania.jpg tanzania
+rgb-combine combinetanzania redtanzania greentanzania bluetanzania
+save combinetanzania.jpg combinetanzania
+
+load tanzania.jpg tanzania
+dither tanzania dithertanzania
+save dithertanzania.jpg dithertanzania
+
+load tanzania.jpg tanzania
+sepia tanzania sepiatanzania
+save sepiatanzania.jpg sepiatanzania
+
+load tanzania.jpg tanzania
+gaussian-blur tanzania gaussian-blurtanzania
+save gaussian-blurtanzania.jpg gaussian-blurtanzania
+
+load tanzania.jpg tanzania
+sharpen tanzania sharptanzania
+save sharptanzania.jpg sharptanzania
