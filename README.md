@@ -1,14 +1,47 @@
-# Assignment 6
+# Image Processing Application
+
 
 ## Group Members
 
+- Javad Moein
 - Tanmay Gadgil
 - Seung Hun Lee
-- Javad MoeinNajafabadi
+
+This project was completed in four phases.
+
+
+# Image Processing Application
+
+This project encompasses three distinct modes of operation:
+
+1. **Graphical User Interface (GUI Mode):** In this mode, users interact with the application through buttons and graphical components to perform various image processing operations. It offers an intuitive and interactive way to load, process, and save images, making it user-friendly.
+
+2. **Script Mode:** The application includes a script mode that accepts a script text file containing a list of commands. This allows for batch processing, making it convenient for automating tasks and applying multiple operations to images sequentially.
+
+3. **Text Mode:** For users who prefer a command-line interface, there is a text mode that enables interaction with the application via a terminal text environment. This mode provides a straightforward means of engaging with the model.
+
+The underlying design of the application follows the Model-View-Controller (MVC) architectural pattern. This design promotes modularity and facilitates the addition of new image manipulations and features with ease. By adhering to the MVC pattern, each feature is implemented comprehensively, from the model layer to the user interface provided by the view and controller layers.
+
+## Key Features and Functionalities
+
+- **Image Format Support:** The application supports various image file formats, including ASCII PPM files, as well as more conventional formats such as JPEG and PNG. This versatility ensures compatibility with a wide range of image sources.
+
+- **Image Processing:** The application offers a range of image processing capabilities, encompassing filtering, color transformations, dithering, and the ability to create and visualize histograms for images. These operations allow users to enhance and manipulate images according to their requirements.
+
+- **Graphical View:** The graphical user interface provides a user-friendly environment for loading, processing, and saving images. It leverages buttons and components to simplify image manipulation, making it accessible to users with varying levels of expertise.
+
+- **Scripting Support:** Users can create and execute scripts to apply a series of image processing operations in a batch mode. This functionality streamlines the application of multiple tasks to images.
+
+- **Text-Based Interaction:** The text mode allows users to interact with the application via a terminal environment, providing a command-line interface for those who prefer this method of interaction.
+
+- **Image Mosaicking:** The application supports image mosaicking, enabling the creation of composite images by combining multiple images into a single cohesive result.
+
+By combining these features and adhering to the MVC design pattern, the image processing application offers a robust and extensible platform for manipulating and enhancing images. While the current version focuses on handling PPM images, it is designed to be easily extendable to support additional image formats in the future.
+
 
 ## Overview
 
-This builds on top of the previous assignment and is an image processing application that has three
+This an image processing application that has three
 modes of operation.
 
 1. A Graphical user Interface that uses buttons and components to perform operations on images.
@@ -191,7 +224,7 @@ The view is the part of the program that shows results to the user.
 
 ## Design Changes
 
-### Assignment 5
+### Phase 2
 
 - A change in the model interface for the load and save methods. This is to conform to the idea of
   exposing the file only to the controller and not the model.
@@ -205,7 +238,7 @@ The view is the part of the program that shows results to the user.
   same for transformations and operations.
 - Added savers and loaders to load in PPM and Conventional file formats.
 
-### Assignment 6
+### Phase 3
 
 - Added a IGUIView interface and GUIView for the GUI
 - Added a UIController to work with the gui and abstract controller
